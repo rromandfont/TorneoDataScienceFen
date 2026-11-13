@@ -1,0 +1,9 @@
+{
+ "fecha_cierre": "2026-11-06",
+ "prob_sube": 0.4892,
+ "direccion": "BAJA",
+ "exposicion_sugerida": 0.0,
+ "modo": "torneo",
+ "W": 250,
+ "t_min": 1.0
+}
