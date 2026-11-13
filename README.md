@@ -4,14 +4,14 @@ Repositorio de entrega para el torneo Data Science en Finanzas: ¿Sube o baja el
 
 ## Estructura del proyecto
 
-Todo el proyecto está dentro de la carpeta repositorio_entrega/. En la raíz del repositorio solo están este README y la licencia (LICENSE, MIT).
+Todo el proyecto está dentro de la carpeta repositorio_entrega/. En la raíz del repositorio están este README, la licencia (LICENSE, MIT) y el informe (informe_modelo_usdclp_11v.pdf).
 
 - estrategia_usdclp_11v.ipynb: notebook principal y archivo que hay que ejecutar. Contiene los supuestos, el mecanismo de ejecución, el backtest con sus estadísticas, los gráficos y la señal del día.
 - codigo/modelo_adaptativo.py: módulo con toda la lógica del modelo (datos, señales, pesos dinámicos, exposición y evaluación). También se puede ejecutar por línea de comandos.
 - codigo/comparar_estrategias.py, codigo/grafico_desempeno.py y codigo/grafico_costos.py: análisis complementarios (variantes de exposición, curva de desempeño y sensibilidad a costos).
 - datos/base_usdclp.xlsx: base Bloomberg del torneo, con datos hasta el 6 de noviembre de 2026.
 - documentacion/: bases del torneo y diccionario de datos.
-- informe/: informe en PDF (informe_modelo_usdclp_11v.pdf) y sus figuras.
+- informe/: figuras del informe. El informe en PDF está en la raíz del repositorio.
 - resultados/: salidas de cada corrida por línea de comandos. Se crea automáticamente al ejecutar el modelo.
 - resultados_referencia/: salidas esperadas con la base incluida, para verificar que la ejecución es correcta.
 - requirements.txt: dependencias con versiones exactas.
